@@ -15,7 +15,9 @@
     "header": {
       "settings": {
         "color_scheme": "scheme-9a35a4b6-54af-4471-8e03-0fa074cbbfc5",
-        "menu_color_scheme": "scheme-9a35a4b6-54af-4471-8e03-0fa074cbbfc5"
+        "menu_color_scheme": "scheme-9a35a4b6-54af-4471-8e03-0fa074cbbfc5",
+        "padding_top": 12,
+        "padding_bottom": 12
       },
       "blocks": {
       }

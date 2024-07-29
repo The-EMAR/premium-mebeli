@@ -3673,7 +3673,7 @@ details-disclosure>details {
 
 .header-wrapper--border-bottom {
   border-bottom: unset !important;
-  box-shadow: 0 -1rem 4rem #FF6F91;
+  box-shadow: 0 -1rem 4rem #ffffff;
 }
 
 /* .cart-count-bubble */
@@ -3822,4 +3822,16 @@ details-disclosure>details {
 
 .cart-drawer .price .price--end {
   color: #12b647 !important;
+}
+
+
+.custom-header-margin {
+  /* margin-top: -8.4rem; */
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .custom-header-margin {
+    /* margin-top: -7.5rem; */
+  }  
 }

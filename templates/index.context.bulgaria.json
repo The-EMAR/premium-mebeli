@@ -6,12 +6,14 @@
   "sections": {
     "image_banner": {
       "settings": {
+        "image_height": "large",
+        "show_text_box": false,
         "desktop_content_alignment": "center",
         "image_behavior": "ambient",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": false,
-        "image_height": "large"
+        "show_text_below": true,
+        "color_scheme": "scheme-9a35a4b6-54af-4471-8e03-0fa074cbbfc5"
       },
       "blocks": {
         "heading_tbmFU": {

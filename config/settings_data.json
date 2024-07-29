@@ -340,12 +340,12 @@
       },
       "scheme-9a35a4b6-54af-4471-8e03-0fa074cbbfc5": {
         "settings": {
-          "background": "rgba(0,0,0,0)",
+          "background": "#000000",
           "background_gradient": "",
-          "text": "#242833",
-          "button": "#121212",
+          "text": "#ffffff",
+          "button": "#ffffff",
           "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
+          "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }
       }
