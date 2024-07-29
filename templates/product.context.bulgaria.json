@@ -1,0 +1,15 @@
+{
+  "parent": "product.json",
+  "context": {
+    "market": "bulgaria"
+  },
+  "sections": {
+    "main": {
+      "settings": {
+        "color_scheme": "scheme-99933a84-6dfc-4875-8197-1485a92441a9"
+      },
+      "blocks": {
+      }
+    }
+  }
+}

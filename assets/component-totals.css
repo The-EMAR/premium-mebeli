@@ -1,0 +1,45 @@
+.totals {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.totals > * {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.totals > h2 {
+  text-transform: uppercase;
+  font-size: calc(var(--font-heading-scale) * 1.6rem);
+}
+
+.totals * {
+  line-height: 1;
+}
+
+.totals > * + * {
+  margin-left: 2rem;
+}
+
+.totals__total {
+  margin-top: .5rem;
+}
+
+.totals__total-value {
+  font-size: 1.8rem;
+}
+
+.totals__total-value span {
+  color: #12b647;
+}
+
+.cart__ctas + .totals {
+  margin-top: 2rem;
+}
+
+@media all and (min-width: 750px) {
+  .totals {
+    justify-content: flex-end;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "parent": "header-group.json",
+  "context": {
+    "market": "bulgaria"
+  },
+  "sections": {
+    "announcement-bar": {
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-7878e14d-2665-4980-bb7e-4271c8ed0e5b"
+      },
+      "blocks": {
+      }
+    },
+    "header": {
+      "settings": {
+        "color_scheme": "scheme-9a35a4b6-54af-4471-8e03-0fa074cbbfc5",
+        "menu_color_scheme": "scheme-9a35a4b6-54af-4471-8e03-0fa074cbbfc5"
+      },
+      "blocks": {
+      }
+    }
+  }
+}

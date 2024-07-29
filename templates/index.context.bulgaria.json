@@ -1,0 +1,44 @@
+{
+  "parent": "index.json",
+  "context": {
+    "market": "bulgaria"
+  },
+  "sections": {
+    "image_banner": {
+      "settings": {
+        "desktop_content_alignment": "center",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": false,
+        "image_height": "large"
+      },
+      "blocks": {
+        "heading_tbmFU": {
+          "type": "heading",
+          "disabled": false,
+          "settings": {
+            "heading": "Новата колекция вече е тук",
+            "heading_size": "h1"
+          }
+        },
+        "button": {
+          "settings": {
+            "button_link_1": "shopify:\/\/collections\/frontpage"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tbmFU",
+        "button"
+      ]
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection",
+    "featured_collection_hGPpxE",
+    "featured_collection_kHHwKL",
+    "featured_collection_h68DD8"
+  ]
+}
