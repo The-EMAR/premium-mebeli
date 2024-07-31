@@ -30,8 +30,8 @@
   font-size: 1.8rem;
 }
 
-.totals__total-value span {
-  color: #12b647;
+.totals__total-value {
+  color: green;
 }
 
 .cart__ctas + .totals {

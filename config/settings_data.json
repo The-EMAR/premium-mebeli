@@ -118,7 +118,8 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collections": [
-      "frontpage"
+      "холен-сет",
+      "столове"
     ],
     "cart_color_scheme": "scheme-99933a84-6dfc-4875-8197-1485a92441a9",
     "cart_drawer_collection": "рокли",

@@ -38,7 +38,7 @@
         "gift_wKa9rC": {
           "type": "gift",
           "settings": {
-            "gift": "+ Подарък = холна маса + килим"
+            "gift": "{{ product.metafields.custom.gift.value.gift.value }}"
           }
         },
         "buy_buttons": {
