@@ -14,10 +14,10 @@
     },
     "header": {
       "settings": {
-        "color_scheme": "scheme-9a35a4b6-54af-4471-8e03-0fa074cbbfc5",
-        "menu_color_scheme": "scheme-9a35a4b6-54af-4471-8e03-0fa074cbbfc5",
-        "padding_top": 12,
-        "padding_bottom": 12
+        "color_scheme": "scheme-7878e14d-2665-4980-bb7e-4271c8ed0e5b",
+        "menu_color_scheme": "scheme-1",
+        "padding_top": 16,
+        "padding_bottom": 16
       },
       "blocks": {
       }

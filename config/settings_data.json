@@ -120,7 +120,7 @@
     "cart_drawer_collections": [
       "frontpage"
     ],
-    "cart_color_scheme": "scheme-91f79a96-22a3-4942-995a-b01fa90f21f7",
+    "cart_color_scheme": "scheme-99933a84-6dfc-4875-8197-1485a92441a9",
     "cart_drawer_collection": "рокли",
     "sections": {
       "main-password-header": {
@@ -213,7 +213,7 @@
           "text": "#121212",
           "button": "#12b647",
           "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
+          "secondary_button_label": "#12b647",
           "shadow": "#121212"
         }
       },

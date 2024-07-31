@@ -8,7 +8,6 @@
         "image_ka9kVm": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo-transparent-white.png",
             "image_width": 190,
             "alignment": "center"
           }
@@ -18,13 +17,13 @@
         "image_ka9kVm"
       ],
       "settings": {
-        "color_scheme": "scheme-e71b8dd5-68ec-451a-b59f-2a7679fe7463",
+        "color_scheme": "scheme-bfa94d10-a3ef-4f33-bf07-0f2fcb946ced",
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": true,
-        "enable_country_selector": true,
-        "enable_language_selector": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
         "payment_enable": true,
         "show_policy": true,
         "margin_top": 0,

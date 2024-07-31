@@ -463,9 +463,13 @@
                   render 'share-button', block: block, share_link: share_url
                 %}
               {%- when 'offer' -%}
-
                 {% render 'component-product-offer' countdown: block.settings.countdown_timer, discount_color: block.settings.discount_color, product: product %}
-            
+              
+              {% when 'gift' %}
+                {% if block.settings.gift != blank %}
+                  <p class="product__gift">{{ block.settings.gift }}</p>
+                {% endif %}
+
               {%- when 'variant_picker' -%}
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
               {%- when 'buy_buttons' -%}
@@ -989,6 +993,17 @@
           "id": "discount_color",
           "label": "t:sections.all.colors.label",
           "default": "scheme-1"
+        }
+      ]
+    },
+    {
+      "type": "gift",
+      "name": "gift",
+      "settings": [
+        {
+          "type": "text",
+          "id": "gift",
+          "label": "Gift"
         }
       ]
     },

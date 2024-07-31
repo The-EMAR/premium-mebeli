@@ -3673,18 +3673,18 @@ details-disclosure>details {
 
 .header-wrapper--border-bottom {
   border-bottom: unset !important;
-  box-shadow: 0 -1rem 4rem #ffffff;
+  box-shadow: 0 -1rem 4rem #5f87df;
 }
 
 /* .cart-count-bubble */
 
 .cart-count-bubble {
   position: absolute;
-  background-color: transparent;
+  background-color: white;
+  color: black;
   font-size: 1.6rem;
-  top: 50%;
+  top: .2rem;
   left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 /* .cart-count-bubble > i {
@@ -3704,7 +3704,7 @@ details-disclosure>details {
 
 .header__icon,
 .header__icon--cart .icon {
-  fill: #FF6F91;
+  fill: white;
   padding: .5rem;
 }
 
@@ -3834,4 +3834,34 @@ details-disclosure>details {
   .custom-header-margin {
     /* margin-top: -7.5rem; */
   }  
+}
+
+/* .business__phone-number on buy buttons snippet */
+
+.business__phone-number {
+  margin-top: 1rem;
+  /* border-top: .1rem solid green; */
+  text-align: center;
+  padding: .5rem;
+}
+
+.business__phone-number a {
+  color: green;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+}
+
+
+.business__phone-number a span {
+  text-decoration: underline;
+}
+
+/* Mine product */
+
+.product__gift {
+  color: green;
+  margin: -2rem 0 0 !important;
+  padding: 0 ;
 }

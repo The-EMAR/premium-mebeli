@@ -98,11 +98,12 @@
               {%- else -%}
                 {% comment %} <span style="margin-rigth: 1rem; display:inline-block;">{{ 'products.product.add_to_cart' | t }}</span> {% endcomment %}
 
-                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-plus" style="font-size: 2.3rem;"></i>
               {%- endif -%}
             </span>
             {%- render 'loading-spinner' -%}
           </button>
+
           {%- if show_dynamic_checkout -%}
             <button id="checkout-now" 
             class="button" 
@@ -113,6 +114,10 @@
             
             {% comment %} {{ form | payment_button }} {% endcomment %}
           {%- endif -%}
+
+          <div class="business__phone-number">
+            <a href="tel:+35895878673"><i class="fa-solid fa-phone"></i> <span>+35895878673</span></a>
+          </div><!-- /.business__phone-number -->
         </div>
       {%- endform -%}
     </product-form>

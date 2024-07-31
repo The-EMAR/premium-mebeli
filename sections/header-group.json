@@ -16,8 +16,9 @@
       "block_order": [
         "announcement-bar-0"
       ],
+      "disabled": true,
       "settings": {
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-bfa94d10-a3ef-4f33-bf07-0f2fcb946ced",
         "show_line_separator": false,
         "show_social": false,
         "auto_rotate": false,
@@ -34,15 +35,15 @@
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-7878e14d-2665-4980-bb7e-4271c8ed0e5b",
         "menu_color_scheme": "scheme-1",
         "enable_country_selector": false,
         "enable_language_selector": false,
         "enable_customer_avatar": true,
         "mobile_logo_position": "center",
         "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 16,
+        "padding_bottom": 16
       }
     }
   },

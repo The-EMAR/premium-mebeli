@@ -24,6 +24,7 @@
         },
         "offer_xfY3H3": {
           "type": "offer",
+          "disabled": true,
           "settings": {
             "countdown_timer": 29880,
             "discount_color": "scheme-d6b755d6-9d90-443f-a70d-63868e5c2eb3"
@@ -32,6 +33,12 @@
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "gift_wKa9rC": {
+          "type": "gift",
+          "settings": {
+            "gift": "+ Подарък = холна маса + килим"
           }
         },
         "buy_buttons": {
@@ -80,6 +87,7 @@
         "variant_picker",
         "offer_xfY3H3",
         "price",
+        "gift_wKa9rC",
         "buy_buttons",
         "description",
         "icon_with_text_6jgix4",
@@ -88,7 +96,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "color_scheme": "scheme-bfa94d10-a3ef-4f33-bf07-0f2fcb946ced",
+        "color_scheme": "scheme-99933a84-6dfc-4875-8197-1485a92441a9",
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
