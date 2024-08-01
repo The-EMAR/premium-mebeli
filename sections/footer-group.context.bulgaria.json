@@ -4,5 +4,17 @@
     "market": "bulgaria"
   },
   "sections": {
+    "footer": {
+      "settings": {
+        "newsletter_heading": "Абонирайте се за нашия каталог"
+      },
+      "blocks": {
+        "image_ka9kVm": {
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a-sleek-and-modern-minimalist-brand-logo-design-fo-2-wwVwGGQv6YZSNuACBX_Q-wLwO_ygQQtOQBerfXW7S0A_1_182ecaf9-5a83-4510-99f9-dedbda034269.png"
+          }
+        }
+      }
+    }
   }
 }

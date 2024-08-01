@@ -9,18 +9,18 @@
         "image_height": "large",
         "show_text_box": false,
         "desktop_content_alignment": "center",
+        "color_scheme": "scheme-9a35a4b6-54af-4471-8e03-0fa074cbbfc5",
         "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "color_scheme": "scheme-9a35a4b6-54af-4471-8e03-0fa074cbbfc5"
+        "show_text_below": false
       },
       "blocks": {
         "heading_tbmFU": {
           "type": "heading",
           "disabled": false,
           "settings": {
-            "heading": "Новата колекция вече е тук",
+            "heading": "Новата колекция вече е тук!",
             "heading_size": "h1"
           }
         },
@@ -34,10 +34,48 @@
         "heading_tbmFU",
         "button"
       ]
+    },
+    "featured_collection_PVWJK": {
+      "type": "featured-collection",
+      "disabled": false,
+      "settings": {
+        "title": "Столове",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "столове",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-99933a84-6dfc-4875-8197-1485a92441a9",
+        "header-bd5d85e7e945136257532b575be0ee81": null,
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "header-cc9570d2beb063a147eb26c2b3ea0477": null,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "header-f88b17d98d642904ae4d06ae73796df0": null,
+        "padding_top": 36,
+        "padding_bottom": 36
+      },
+      "blocks": {
+      },
+      "block_order": [
+
+      ]
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "featured_collection_PVWJK"
   ]
 }
